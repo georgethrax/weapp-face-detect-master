@@ -1,0 +1,9 @@
+@import "../../weui.wxss";
+
+/**index.wxss**/
+.weui-btn[type="primary"]{
+  background-color: #844289
+}
+image{
+  width:100%;
+}

@@ -1,0 +1,23 @@
+//吃苹果
+var CHIPINGGUO = "../../images/吃苹果.png";
+//url相关
+var BASE_URL = "http://gank.io/api";
+var GET_MEIZHI_URL = BASE_URL.concat("/data/%E7%A6%8F%E5%88%A9/10/");
+var DETECTION_URL = 'https://api-cn.faceplusplus.com/facepp/v3/detect';
+var DETECTION_API_KEY = "DETECTION_API_KEY-PY";
+var DETECTION_API_SECRET = "DETECTION_API_SECRET";
+var PUBLISH_AID = 1284960;
+var PUBLISH_URL = "http://up.imgapi.com/";
+var PUBLISH_TOKEN = "PUBLISH_TOKEN";
+// 将方法、变量暴露出去
+module.exports = {
+    CHIPINGGUO: CHIPINGGUO,
+    BASE_URL: BASE_URL,
+    GET_MEIZHI_URL: GET_MEIZHI_URL,
+    DETECTION_URL: DETECTION_URL,
+    DETECTION_API_KEY: DETECTION_API_KEY,
+    DETECTION_API_SECRET: DETECTION_API_SECRET,
+    PUBLISH_AID: PUBLISH_AID,
+    PUBLISH_URL: PUBLISH_URL,
+    PUBLISH_TOKEN: PUBLISH_TOKEN
+}

@@ -1,0 +1,25 @@
+<!--image.wxml-->
+<view >
+    <loading hidden="{{hidden}}" >
+     {{loadingText}}
+    </loading>
+
+    <toast hidden="{{toastHidden}}" bindchange="onToastChanged">
+        {{toastText}}
+    </toast>
+
+<view bindlongtap = "onlongclick">
+    <image class = "bigImage" mode="aspectFill" src="{{url}}" />
+</view>
+
+<modal title="小程序不支持保存文件到手机。请手动截图或分享。" confirm-text="确定" cancel-text="取消" data-url="{{url}}" no-cancel="true"
+    hidden="{{modalHidden}}" bindconfirm="onCancelClick" bindcancel="onCancelClick" >
+</modal>
+
+
+<view class="page__bd page__bd_spacing">
+        <button class="weui-btn" type="primary">页面主操作 Normal</button>
+        <button class="weui-btn" type="primary" disabled="true">页面主操作 Disabled</button>
+
+</view>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/camera/camera",
+    "pages/account/account",
+    "pages/logs/logs",
+    "pages/image/image"
+  ],
+  "networkTimeout": {
+    "request": 5000,
+    "downloadFile": 5000,
+    "uploadFile": 200
+  },
+  "debug": true,
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#844289",
+    "navigationBarTitleText": "益见清心2017·向菁菁展示你的笑容",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#844289",
+    "borderStyle":"black",
+    "list": [
+      {
+      "selectedIconPath": "images/首页-紫.png",
+      "iconPath": "images/首页-灰.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/相机-紫.png",
+        "iconPath": "images/相机-灰.png",
+        "pagePath": "pages/camera/camera",
+        "text": "相机"
+      },
+      {
+          "selectedIconPath": "images/用户-紫.png",
+          "iconPath": "images/用户-灰.png",
+          "pagePath": "pages/account/account",
+          "text": "用户"
+      }]
+    }
+}
